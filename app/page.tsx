@@ -425,11 +425,11 @@ export default function TerritoryManagementApp() {
             </div>
             
             <div className="flex items-center space-x-2">
-              <button onClick={() => setShowImportModal(true)} className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border-2 border-gray-300 rounded-lg hover:bg-gray-50 flex items-center space-x-2">
+              <button onClick={() => setShowImportModal(true)} className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 flex items-center space-x-2">
                 <Upload className="w-4 h-4" />
                 <span className="hidden sm:inline">Import</span>
               </button>
-              <button onClick={exportData} className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border-2 border-gray-300 rounded-lg hover:bg-gray-50 flex items-center space-x-2">
+              <button onClick={exportData} className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 flex items-center space-x-2">
                 <Download className="w-4 h-4" />
                 <span className="hidden sm:inline">Export</span>
               </button>
@@ -437,7 +437,7 @@ export default function TerritoryManagementApp() {
                 <Plus className="w-4 h-4" />
                 <span className="hidden sm:inline">New Event</span>
               </button>
-              <button onClick={() => setShowClientForm(true)} className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border-2 border-gray-300 rounded-lg hover:bg-gray-50 flex items-center space-x-2">
+              <button onClick={() => setShowClientForm(true)} className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 flex items-center space-x-2">
                 <Users className="w-4 h-4" />
                 <span className="hidden sm:inline">New Client</span>
               </button>
@@ -716,13 +716,13 @@ export default function TerritoryManagementApp() {
                           </button>
                           <button
                             onClick={() => handleEditEvent(event)}
-                            className="px-3 py-1.5 text-sm font-medium text-gray-700 bg-white border-2 border-gray-300 rounded-lg hover:bg-gray-50"
+                            className="px-3 py-1.5 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50"
                           >
                             <Edit className="w-4 h-4" />
                           </button>
                           <button
                             onClick={() => handleDeleteEvent(event.id)}
-                            className="px-3 py-1.5 text-sm font-medium text-gray-700 bg-white border-2 border-gray-300 rounded-lg hover:bg-gray-50"
+                            className="px-3 py-1.5 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50"
                           >
                             <Trash2 className="w-4 h-4" />
                           </button>
